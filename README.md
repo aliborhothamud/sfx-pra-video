@@ -1,4 +1,4 @@
-# 🔊 som-que-segura
+# 🔊 sfx-pra-video
 
 **Guia aberto, em português, de _sound design_ pra vídeo curto** — quando usar qual som
 pra segurar a atenção, e o que é seguro juridicamente. Reels, Shorts, TikTok, ads.
