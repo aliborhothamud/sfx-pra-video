@@ -15,6 +15,35 @@ livres, não numa pilha de arquivos protegidos.
 
 ---
 
+## 🚀 Como usar (baixar os sons)
+
+Não tem instalador — é um guia + arquivos. Você **lê** os capítulos e **baixa** os sons.
+
+**Baixar tudo (jeito mais fácil):** no topo desta página do GitHub, clique em
+**`Code` → `Download ZIP`**. Descompacte e os sons estão na pasta `sons-livres/`.
+
+**Ou via git:**
+```bash
+git clone https://github.com/aliborhothamud/sfx-pra-video.git
+```
+
+**Um som só:** abra o [catálogo](guia/4-catalogo.md), ache o que quer, e clique no arquivo
+dentro de [`sons-livres/`](sons-livres/) → botão **`Download`**.
+
+**Usar no seu vídeo:**
+- **CapCut / Premiere / DaVinci:** arraste o `.wav`/`.ogg` da pasta `sons-livres/` pra
+  timeline, no frame do corte/legenda/reveal. (Dosagem e volume: [capítulo 3](guia/3-dosagem-e-mix.md).)
+- **Remotion:** copie o som pra `public/sfx/` do seu projeto e prenda ao frame:
+  ```tsx
+  <Sequence from={30}><Audio src={staticFile("sfx/riser__tonal.wav")} /></Sequence>
+  ```
+  Detalhes na [camada dev](guia/5-remotion.md).
+
+> Os sons de `sons-livres/` (Kenney CC0 + sintetizados) são ✅ livres até pra ad. Os que
+> **não** estão aqui (Mixkit, memes virais) você pega na fonte — ver [FONTES](fontes/FONTES.md).
+
+---
+
 ## 🗺️ Por onde começar
 
 **É criador / editor (CapCut, Premiere)?**
