@@ -1,5 +1,7 @@
 # CLAUDE.md — sfx-pra-video
 
+> **Conhecimento de negócio** (o porquê, clientes, decisões, marca): `~/Central/Brain/areas/conteudo/conteudo.md`. Log e memória do slug `conteudo` também no Brain; o hook de abertura injeta o resumo.
+
 Guia aberto, em português, de sound design para vídeo curto (CC BY 4.0). O valor está na aula; os sons livres são o
 complemento. O repo é público.
 
