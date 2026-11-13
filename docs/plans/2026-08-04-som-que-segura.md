@@ -8,11 +8,11 @@
 
 **Tech Stack:** Markdown, git, GitHub (público). Fontes: 2 docs locais + database Notion `collection://3973cdf0-8a15-490a-aef5-f64ca70e3c0d`. Skill `stop-slop` no texto final.
 
-**Local de trabalho:** `C:/Users/aliha/som-que-segura/` (novo repo, separado — NÃO dentro de conteudo-videos nem de ~/.claude).
+**Local de trabalho:** a raiz deste repo (`sfx-pra-video/`, nome de trabalho `som-que-segura`) (novo repo, separado — NÃO dentro de conteudo-videos nem de ~/.claude).
 
 **Fontes de conteúdo (reaproveitar, não reinventar):**
-- `C:/Users/aliha/conteudo-videos/public/sfx/README.md` — mapa de retenção, dosagem, licenças, "o que a pesquisa REFUTOU"
-- `C:/Users/aliha/conteudo-videos/public/sfx/TRENDING-SOUNDS.md` — os dois mundos, sons virais
+- `conteudo-videos/public/sfx/README.md` — mapa de retenção, dosagem, licenças, "o que a pesquisa REFUTOU"
+- `conteudo-videos/public/sfx/TRENDING-SOUNDS.md` — os dois mundos, sons virais
 - Database Notion (60 linhas curadas) — taxonomia + metadados por som
 
 **Guardrails (inegociáveis):**
@@ -29,7 +29,7 @@
 - Create: `som-que-segura/LICENSE` (CC-BY-4.0)
 - Create: `som-que-segura/.gitignore`
 
-**Step 1:** `git init` em `C:/Users/aliha/som-que-segura`; criar a árvore de pastas.
+**Step 1:** `git init` na pasta do repo; criar a árvore de pastas.
 **Step 2:** Gravar `LICENSE` = texto oficial CC-BY-4.0 (a curadoria/aula é do Ali, uso livre com crédito).
 **Step 3:** `.gitignore` = `.DS_Store`, `Thumbs.db`, `node_modules/`.
 **Step 4:** Copiar este plano pra `docs/plans/2026-08-04-som-que-segura.md` e o design pra `docs/plans/`.
